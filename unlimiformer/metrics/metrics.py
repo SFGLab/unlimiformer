@@ -7,9 +7,10 @@ import shutil
 
 import numpy as np
 
-from utils.decoding import decode
 from datasets import load_metric as hf_load_metric
 from huggingface_hub import hf_hub_download
+
+from unlimiformer.utils.decoding import decode
 
 
 class Metric(ABC):
